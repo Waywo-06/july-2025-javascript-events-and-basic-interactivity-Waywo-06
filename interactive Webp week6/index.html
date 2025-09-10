@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Wavy Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to Wavy FC Interactive Zone </h1>
+    <button id="themeToggle">Toggle Light/Dark Mode</button>
+  </header>
+
+  <section>
+    <h2>Goal Counter</h2>
+    <p>Goals Scored: <span id="goalCount">0</span></p>
+    <button id="scoreBtn">Score a Goal!</button>
+  </section>
+
+  <section>
+    <h2>FAQ</h2>
+    <div class="faq">
+      <h3 class="question">What is Wavy FC?</h3>
+      <p class="answer hidden">Wavy FC is the greatest football team of all time. We have had some of the best players in the world come out of out academy, winning various awards and tropies with this magnificent club. Some of our honors inlcude:</p>
+      <li>20 league titles</li>
+      <li>17 domestic cups</li>
+      <li>14 Champions leagues</li>
+      <li>3 Club World Cups</li>
+      <li>7 Super Cups</li>
+      <li>5 Ballon Dor winners (players)</li>
+    </div>
+  </section>
+
+  <section>
+    <h2>Join the Team</h2>
+    <form id="signupForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" />
+      <span id="nameFeedback" class="feedback"></span>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" />
+      <span id="emailFeedback" class="feedback"></span>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" />
+      <span id="passwordFeedback" class="feedback"></span>
+
+      <button type="submit">Sign Up</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
