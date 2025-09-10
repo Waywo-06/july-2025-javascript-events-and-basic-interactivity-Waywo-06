@@ -1,10 +1,10 @@
-// 🌗 Theme Toggle: Switch between light and dark mode
+//  Theme Toggle: Switch between light and dark mode
 const themeToggle = document.getElementById('themeToggle');
 themeToggle.addEventListener('click', () => {
   document.body.classList.toggle('dark-mode');
 });
 
-// ⚽ Goal Counter: Increment goal count on button click
+//  Goal Counter: Increment goal count on button click
 let goalCount = 0;
 const scoreBtn = document.getElementById('scoreBtn');
 const goalDisplay = document.getElementById('goalCount');
@@ -14,7 +14,7 @@ scoreBtn.addEventListener('click', () => {
   goalDisplay.textContent = goalCount;
 });
 
-// ❓ FAQ Toggle: Show/hide answer when question is clicked
+//  FAQ Toggle: Show/hide answer when question is clicked
 const question = document.querySelector('.question');
 const answer = document.querySelector('.answer');
 
@@ -22,7 +22,7 @@ question.addEventListener('click', () => {
   answer.classList.toggle('hidden');
 });
 
-// 📝 Form Validation: Validate name, email, and password
+//  Form Validation: Validate name, email, and password
 const form = document.getElementById('signupForm');
 const nameInput = document.getElementById('name');
 const emailInput = document.getElementById('email');
@@ -81,4 +81,5 @@ form.addEventListener('submit', (e) => {
     formMessage.textContent = 'Please fix the errors above.';
   }
 });
+
 
