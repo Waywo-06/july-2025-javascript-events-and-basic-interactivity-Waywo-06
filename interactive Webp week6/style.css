@@ -1,4 +1,4 @@
-/* 🌟 Base Styles */
+/*  Base Styles */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
@@ -49,7 +49,7 @@ body.dark-mode button:hover {
   background-color: #666;
 }
 
-/* ⚽ Goal Counter Section */
+/* Goal Counter Section */
 section {
   margin-bottom: 40px;
 }
@@ -128,4 +128,5 @@ body.dark-mode {
 .feedback {
   color: red;
   font-size: 0.9em;
+
 }
